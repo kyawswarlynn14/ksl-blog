@@ -29,7 +29,7 @@ const Header = () => {
             href="https://kyawswarlynn.vercel.app"
             className="md:float-right hidden md:block hover:underline underline-offset-2 align-middle text-white ml-4 font-semibold cursor-pointer"
           >
-            Kyaw Swar Lynn
+            kyaw swar lynn
           </a>
         </div>
 
