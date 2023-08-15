@@ -38,18 +38,18 @@ export default function NavMobile({categories}) {
                 </div>
 
                 <div className=" flex flex-col my-4 gap-4">
-                <Link href='/' className='font-mono bg-white p-2 px-4 rounded-lg flex items-center gap-2 ' onClick={closeModal}>
+                <Link href='/' className='font-mono bg-white p-2 px-4 rounded-e-xl flex items-center gap-2 ' onClick={closeModal}>
                     Home
                 </Link>
                 {categories.map((category, index) => (
                     <Link key={index} href={`/category/${category.slug}`}>
-                    <span className="font-mono bg-white p-2 px-4 rounded-lg flex items-center gap-2 " onClick={closeModal}>
+                    <span className="font-mono bg-white p-2 px-4 rounded-e-xl flex items-center gap-2 " onClick={closeModal}>
                         {category.name}
                     </span>
                     </Link>
                 ))}
-                <a href='https://kyawswarlynn.vercel.app' className='font-mono bg-white p-2 px-4 rounded-lg flex items-center gap-2 ' onClick={closeModal}>
-                    Kyaw Swar Lynn
+                <a href='https://kyawswarlynn.vercel.app' className='font-mono bg-white p-2 px-4 rounded-e-xl flex items-center gap-2 ' onClick={closeModal}>
+                    Portfolio
                 </a>
                 </div>
 

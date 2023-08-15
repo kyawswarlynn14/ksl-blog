@@ -20,7 +20,7 @@ const Header = () => {
       <div className=" w-full flex justify-between md:block py-4 md:pb-10">
         <div className="md:float-left block">
           <Link href="/">
-            <span className="cursor-pointer font-bold text-xl text-white">
+            <span className="cursor-pointer font-bold text-xl text-white font-mono mr-8">
               KSL&apos;s Blog
             </span>
           </Link>
@@ -29,7 +29,7 @@ const Header = () => {
             href="https://kyawswarlynn.vercel.app"
             className="md:float-right hidden md:block hover:underline underline-offset-2 align-middle text-white ml-4 font-semibold cursor-pointer"
           >
-            kyaw swar lynn
+            Portfolio
           </a>
         </div>
 
